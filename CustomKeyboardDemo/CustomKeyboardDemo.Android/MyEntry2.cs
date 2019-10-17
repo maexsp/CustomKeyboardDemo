@@ -72,7 +72,7 @@ namespace CustomKeyboardDemo.Droid
             var activity = Forms.Context as Activity;
             var rootView = activity.Window.DecorView.FindViewById(Android.Resource.Id.Content);
 
-            activity.Window.SetSoftInputMode(SoftInput.StateAlwaysHidden);
+            //activity.Window.SetSoftInputMode(SoftInput.StateAlwaysHidden); // (SoftInput.StateAlwaysHidden);
 
             activityRootView = ((ViewGroup)rootView).GetChildAt(0) as ViewGroup;
             mKeyboardView = new CustomKeyboardView(Forms.Context, null);
@@ -92,8 +92,19 @@ namespace CustomKeyboardDemo.Droid
 
             mKeyboardView.Key += async (sender, e) =>
             {
+                if (e.PrimaryCode == Keycode.NavigateNext)
+                {
+                    this.mKeyboardView.Visibility = ViewStates.Gone;
+                    // or this (not working yet)
+                    // https://forums.xamarin.com/discussion/58763/key-detection-on-form-plus-making-the-keyboard-disappear-on-a-device-with-physical-keys
+                    //var inputMethodManager = (InputMethodManager)this.Context.GetSystemService(Activity.InputMethodService);
+                    //this.mKeyboard.Dispose();
+                    ////this.mKeyboardView.WindowToken
+                    //inputMethodManager.HideSoftInputFromWindow(this.mKeyboardView.WindowToken, 0);
+                    return;
+                }
                 long eventTime = JavaSystem.CurrentTimeMillis();
-                KeyEvent ev = new KeyEvent(eventTime, eventTime, KeyEventActions.Down, e.PrimaryCode, 0, 0, 0, 0, KeyEventFlags.SoftKeyboard | KeyEventFlags.KeepTouchMode);
+                KeyEvent ev = new KeyEvent(eventTime, eventTime, KeyEventActions.Down, e.PrimaryCode, 0, 0, 0, 0, KeyEventFlags.SoftKeyboard | KeyEventFlags.EditorAction);
 
                 DispatchKeyEvent(ev);
 

@@ -4,16 +4,118 @@
              xmlns:local="clr-namespace:CustomKeyboardDemo"
              x:Class="CustomKeyboardDemo.MainPage">
     <ContentPage.Content>
-        <StackLayout>
-            <local:MyEntry 
+        <ScrollView>
+            <StackLayout>
+                <local:MyEntry Placeholder="Enter text here... "
                 HorizontalOptions="FillAndExpand"
                 VerticalOptions="FillAndExpand" />
-            <Button 
-                x:Name="keyboardButton" 
-                Text="Custom Keyboard Page" 
-                HorizontalOptions="Center" 
-                VerticalOptions="CenterAndExpand" 
-                Clicked="keyboardButton_Clicked"/>
-        </StackLayout>
+                <local:MyEntry Placeholder="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Placeholder="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Placeholder="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Placeholder="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Placeholder="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Placeholder="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Placeholder="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Placeholder="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Text="Enter text here...aaa "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Placeholder="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Placeholder="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Placeholder="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Placeholder="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Placeholder="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Placeholder="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Placeholder="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Placeholder="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Text="Enter text here...  asdf"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Placeholder="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Placeholder="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Placeholder="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Placeholder="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Placeholder="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Text="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Placeholder="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Placeholder="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Placeholder="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Placeholder="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Text="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Placeholder="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Placeholder="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Placeholder="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Placeholder="Enter text here... " Text="bla"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Text="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+                <local:MyEntry Placeholder="Enter text here... "
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand" />
+            </StackLayout>
+        </ScrollView>
+       
     </ContentPage.Content>
 </ContentPage>

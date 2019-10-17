@@ -13,10 +13,5 @@ namespace CustomKeyboardDemo
         {
             InitializeComponent();
         }
-
-        private async void keyboardButton_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new MyKeyboardPage());
-        }
     }
 }
