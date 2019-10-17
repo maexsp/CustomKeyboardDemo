@@ -20,4 +20,5 @@ Initla demo of Android - Numberic Keyboard based on Xamarin.Forms (for Android o
   - Test iOS: There the default numeric iOS keyboard should be shown. Be aware that iPhone and iPad numeric keyboards behviour can be different
 
 
+![alt text](https://github.com/maexsp/CustomKeyboardDemo/blob/master/XamarinFormsAndroidCustomKeyboard.png)
 
