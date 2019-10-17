@@ -3,6 +3,8 @@ Xamarin custom keyboard for Xamarin.Android and Xamarin.IOS.
 
 Initla demo of Android - Numberic Keyboard based on Xamarin.Forms (for Android only) cause of bad Samsung Keyboard support regarding Numeric input with localized Decimal and +/- support. Probably also with other Android vendors.
 
+See E.g. https://developer.samsung.com/forum/board/thread/view.do?boardName=SDK&messageId=361518&startId=zzzzz~&searchType=ALL&searchText=decimal 
+
 - Solved: 
   - Closing of keyboard on custom "ok" key
   - Custom key layout
